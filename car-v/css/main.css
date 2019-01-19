@@ -9,12 +9,20 @@
   --mainYellow:#e3b505;
 }
 
-
 body{
   font-family: 'Roboto', sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
 }
+
+/*section title */
+.section-title--special{
+  background:var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path:polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
 /* REM values to target root element 1REM = 16px */
 
 /* navbar*/
@@ -52,4 +60,82 @@ body{
 
 .nav-icon:hover{
   color:var(--mainBlack);
+}
+
+.header {
+  clip-path: polygon(0 0,100% 0,100% 95%, 50% 100%, 0 95% );
+  color:var(--mainWhite);
+  overflow:hidden;
+  /*image is moving not header*/
+}
+
+/*100% of the screen with 100vh*/
+.height-max{
+  min-height:calc(100vh - 76px); /* 76px is the height of the navbar, this is a calculate function */
+  background:url(../img/headerBcg.jpeg);
+  background-position:center;
+  background-size:cover;/*image covers div*/
+  background-attachment:fixed; /* parralex/scroll effect */
+  background-repeat: no-repeat;
+  animation-name: zoom;
+  animation-duration:20s;
+  animation-delay:5s;
+  animation-iteration-count:infinite;
+}
+
+/*add animation*/
+@keyframes zoom{
+  0{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2) translateX(-5%);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.title-heading {
+  background: rgba(0,0,0,0.4);
+  border-left:0.3rem solid var(--mainBlue);
+}
+
+.title{
+  font-weight:700;
+  font-size:1.9rem;
+}
+
+@media screen and (min-width:768px){
+  .title{
+    font-size:3rem;
+  }
+}
+
+.title-icon{
+  color: var(--mainBlue);
+  text-decoration: none!important;
+}
+
+.title-icon:hover{
+  color:var(--mainBlue);
+  opacity: 0.6;
+}
+
+/* skills */
+.skills-icon {
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background: var(--mainGrey);
+}
+
+.skills-icon:hover{
+  color: var(--mainYellow);
+}
+
+.skills-underline{
+  width:4rem;
+  height:0.3rem;
+  background:var(--mainBlue);
+  margin: 1rem auto;
 }
