@@ -92,9 +92,54 @@ body {
   position: absolute;
   right: 0;
   top: 50%;
-  
+  transform:translateX(110%);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.featured-container:hover .featured-search-icon{
+  transform: translateX(0%)
+}
+.featured-store-link{
+  background:var(--mainYellow);
+  color:var(--mainBlack);
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  right: 0;
+  top:70%;
+  transform: translateX(110%);
+  transition: all 1s ease-in-out;
+}
+.featured-store-link:hover{
+  color: var(--mainBlack);
+}
+
+.featured-container:hover .featured-store-link{
+  transform: translateX(0%);
+
 }
 
 .old-price {
   text-decoration: line-through;
+}
+/* partners */
+.partners{
+  background:var(--TransGrey);
+}
+
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(-200%)
+}
+
+.carousel-control-next {
+  font-size: 2.5rem;
+  color: var(--mainBlack);
+  transform: translateX(200%)
+}
+
+/* newsletter */
+.form-icon{
+  background: var(--mainGrey);
+  color: var(--mainBlack);
 }
