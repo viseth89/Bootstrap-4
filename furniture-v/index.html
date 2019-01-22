@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css" />
+  <title>Comfy Sloth Recording</title>
+  <style></style>
+</head>
+
+<body>
+
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!--
+      https://www.iconfinder.com/icons/185106/armchair_chair_streamline_icon
+      Creative Commons (Attribution 3.0 Unported);
+      https://www.iconfinder.com/webalys
+    -->
+
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.png" alt="company logo">
+      </a>
+      <button class="navbar-toggler" type='button' data-toggle='collapse' data-target='#myNavbar'>
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-2 nav-active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="singleproduct.html" class="nav-link">Single Products</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a href="store.html" class="nav-link">Store</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icons d-none d-lg-flex">
+        <!-- Single Icon-->
+        <div class="navbar-icon mx-2">
+          <i class="fas fa-search"></i>
+        </div>
+        <!-- End of Single Icon-->
+        <!-- Single Icon-->
+        <a href="store" class='navbar-icon mx-2 navbar-cart-icon'>
+          <i class="fas fa-shopping-cart"></i>
+          <div class="cart-items">
+            2
+          </div>
+        </a>
+        <!-- End of Single Icon-->
+      </div>
+    </nav>
+    <!--end of navbar-->
+    <div class="banner d-flex align-items-center pl-3 pl lg-5">
+      <div>
+        <h1 class="text-capitalize text-slanted mb-0">minimalist</h1>
+        <h1 class="text-uppercase font-weight-bold">interior style</h1>
+        <a href="products.html" class='btn btn-yellow'>View Collection</a>
+      </div>
+    </div>
+  </header>
+  <!-- End of Header -->
+
+  <!-- Featured Section -->
+  <section class="featured py-5">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-10 mx-auto text-center">
+          <h1 class="text-uppercase">Featured Products</h1>
+          <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, alias!</p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-1.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-2.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-3.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-4.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-5.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+        <!-- Single Product -->
+        <div class="col-10 mx-auto col-md-6 col-lg-4">
+          <div class="featured-container p-5">
+            <img src="img/img-products/product-6.png" class='img-fluid' alt="product">
+            <span class='featured-search-icon' data-toggle='model' data-target='#productModal'><i class="fas fa-search"></i></span>
+            <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+          </div>
+          <h6 class="text-capitalize text-center my-2">special product</h6>
+          <h6 class="text-center">
+            <span class="text-muted old-price mx-2">$200</span>
+            <span>$100</span>
+          </h6>
+        </div>
+        <!-- End of Single Product -->
+      </div>
+    </div>
+  </section>
+  <!-- End of Featured Section -->
+
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
