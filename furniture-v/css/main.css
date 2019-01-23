@@ -31,6 +31,19 @@ body {
   background:var(--mainBlack);
   color:var(--mainYellow);
 }
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color:var(--mainBlack);
+  border-radius: 0!important;
+  border: 0.1rem solid var(--mainBlack);
+}
+.btn-black:hover{
+  background: var(--mainBlack);
+  color: var(--mainWhite);
+}
+
 .banner-products{
   min-height: 60vh;
   background:linear-gradient(
@@ -277,3 +290,63 @@ body {
 .footer1{
   font-size:1.2rem;
 }
+/******** Products ***********/
+.products-categories-underline{
+  height: 0.2rem;
+  width: 5rem;
+  background:var(--mainYellow);
+}
+.products-categories-link{
+  color:var(--mainBlack);
+  text-decoration:none!important;
+}
+.products-categories-link:hover{
+  color:var(--mainGrey);
+  
+}
+.products-color{
+  width: 1rem;
+  height: 1rem;
+}
+.products-color-black{
+  background:black;
+}
+.products-color-red{
+  background:red;
+}
+.products-color-blue{
+  background:blue;
+}
+.products-color-yellow{
+  background:yellow;
+}
+.products-color-green{
+  background:green;
+}
+
+/* End of Products */
+
+/* Single Product */
+.single-product-photo{
+  background:var(--TransGrey);
+  opacity:0.5;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 0.1rem solid transparent;
+  box-sizing: border-box!important;
+}
+.single-product-photo:hover{
+  border: 0.1rem solid var(--mainYellow);
+  opacity: 1;
+}
+.rating-icon{
+  color:var(--mainYellow);
+}
+.product-info-link{
+  color:var(--mainGrey);
+  text-decoration:none!important;
+}
+.product-info-link:hover{
+  color:var(--mainYellow);
+}
+/* End of Single Product */
