@@ -1,3 +1,6 @@
+.bg-primary {
+  background-color: #037bc0 !important; }
+
 .title {
   font-family: "Playfair Display", serif; }
   .title span {
@@ -20,3 +23,15 @@
 .main-image {
   background-image: url(../img/main.jpg);
   height: 35rem; }
+
+.categories a {
+  color: black;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400; }
+  .categories a:hover {
+    text-decoration: none; }
+
+.about-us-image {
+  background-image: url("../img/aboutus.jpg");
+  min-height: 35rem; }

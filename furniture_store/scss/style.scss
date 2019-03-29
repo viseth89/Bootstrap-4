@@ -4,6 +4,9 @@ $primary-color: #037bc0;
 $secondary-color: #8cbc00;
 $third-color: #e1e1e1;
 
+.bg-primary{
+  background-color:$primary-color!important;
+}
 
 .title {
   font-family: $primaryFont;
@@ -40,4 +43,22 @@ $third-color: #e1e1e1;
   background-image:url(../img/main.jpg);
   height: 35rem;
 
+}
+
+// Categories
+.categories a {
+  color:black;
+  font-size:2rem;
+  font-family:$secondaryFont;
+  font-weight:400;
+
+  &:hover{
+    text-decoration:none;
+  }
+}
+
+// About Us
+.about-us-image {
+  background-image:url('../img/aboutus.jpg');
+  min-height:35rem;
 }
