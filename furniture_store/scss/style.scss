@@ -1,0 +1,12 @@
+$primaryFont: 'Playfair Display', serif;
+$secondaryFont: 'Raleway', sans-serif;
+$primary-color: #037bc0;
+$secondary-color: #8cbc00;
+
+.title {
+  font-family: $primaryFont;
+
+  span {
+    color:$primary-color;
+  }
+}
