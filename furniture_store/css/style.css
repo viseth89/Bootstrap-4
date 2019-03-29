@@ -2,3 +2,21 @@
   font-family: "Playfair Display", serif; }
   .title span {
     color: #037bc0; }
+
+.navbar {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1; }
+
+.nav-link {
+  color: black; }
+  .nav-link:hover {
+    color: #037bc0; }
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.main-image {
+  background-image: url(../img/main.jpg);
+  height: 35rem; }

@@ -13,7 +13,50 @@
       <h1 class="title text-center my-4">Furniture 
         <span>Store</span>
       </h1>
+
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="false" aria-label='Toggle navigation'>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="main-nav" class="collapse navbar-collapse">
+          <!-- flex-md-row - will turn into a row when screen size is md or larger -->
+          <!-- default will be flex-column, important for small sizes and responsive -->
+          <nav class="nav container justify-content-between flex-column text-center flex-md-row">
+            <a href="#" class='nav-link'>Home</a>
+            <a href="#" class='nav-link'>About</a>
+            <a href="#" class='nav-link'>Store</a>
+            <a href="#" class='nav-link'>Blog</a>
+            <a href="#" class='nav-link'>Gallery</a>
+            <a href="#" class='nav-link'>Contact Us</a>
+          </nav>
+        </div>
+      </nav>
     </header>
+
+    <div class="main-image bg-image container-fluid">
+    </div>
+    <div class="categories container pt-4">
+      <h2 class="text-center title">Product Categories</h2>
+      <div class="row mt-4 justify-content-center">
+          <div class="col-8 col-md-4 mb-3">
+            <img src="img/category1.jpg" alt="" class='img-fluid'>
+            <!-- d-block = change anchor from inline to block -->
+            <a href="#" class='text-center mt-4 d-block'>Office</a>
+          </div>
+          <div class="col-8 col-md-4 mb-3">
+            <img src="img/category2.jpg" alt="" class='img-fluid'>
+            <!-- d-block = change anchor from inline to block -->
+            <a href="#" class='text-center mt-4 d-block'>Home</a>
+          </div>
+          <div class="col-sm-8 col-md-4 mb-3">
+            <img src="img/category3.jpg" alt="" class='img-fluid'>
+            <!-- d-block = change anchor from inline to block -->
+            <a href="#" class='text-center mt-4 d-block'>Kitchen</a>
+          </div>
+
+
+      </div>
+    </div>
 
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

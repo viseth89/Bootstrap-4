@@ -2,6 +2,8 @@ $primaryFont: 'Playfair Display', serif;
 $secondaryFont: 'Raleway', sans-serif;
 $primary-color: #037bc0;
 $secondary-color: #8cbc00;
+$third-color: #e1e1e1;
+
 
 .title {
   font-family: $primaryFont;
@@ -9,4 +11,33 @@ $secondary-color: #8cbc00;
   span {
     color:$primary-color;
   }
+}
+
+.navbar{
+  border-top:1px solid $third-color;
+  border-bottom:1px solid $third-color;
+}
+
+.nav-link{
+  color:black;
+
+  &:hover{
+    color:$primary-color;
+  }
+}
+
+// Bg Images
+
+.bg-image{
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.main-image{
+  // background:url('../img/main.jpg') center/cover fixed no-repeat;
+  // SHORTHAND WAY -> breaking it up to be more concise
+  background-image:url(../img/main.jpg);
+  height: 35rem;
+
 }
