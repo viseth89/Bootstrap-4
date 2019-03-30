@@ -122,3 +122,25 @@ h3 {
     font-weight: 900;
   }
 }
+
+// Blog
+.entry {
+  h3::after{
+    content:'';
+    display:block;
+    width:8rem;
+    height: .2rem;
+    background-color:$primary-color;
+    margin-top: .5rem;
+  }
+  .meta span {
+    color:$secondary-color;
+  }
+  .btn-success {
+    background-color:$primary-color;
+    font-weight:700;
+    &:hover {
+      background-color:#609602;
+    }
+  }
+}

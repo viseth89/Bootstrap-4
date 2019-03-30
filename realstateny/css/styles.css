@@ -75,3 +75,20 @@ h3 {
   .find-your-house h3 {
     font-size: 2.2rem;
     font-weight: 900; }
+
+.entry h3::after {
+  content: '';
+  display: block;
+  width: 8rem;
+  height: .2rem;
+  background-color: #71b100;
+  margin-top: .5rem; }
+
+.entry .meta span {
+  color: #e08709; }
+
+.entry .btn-success {
+  background-color: #71b100;
+  font-weight: 700; }
+  .entry .btn-success:hover {
+    background-color: #609602; }
