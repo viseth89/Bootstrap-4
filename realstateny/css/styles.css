@@ -1,0 +1,10 @@
+:root {
+    --primary: #71b100;
+    --secondary: #e08709;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3 {
+    font-weight: 300;
+}
