@@ -1,0 +1,82 @@
+$primary-color: #71b100;
+$secondary-color: #e08709;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3 {
+  font-weight: 300;
+}
+
+.bg-success {
+  background-color:$primary-color!important;
+}
+
+// Make navigation responsive/transparent
+
+@media (min-width: 768px) {
+  .top-bar.bg-success {
+    background-color:transparent!important;
+  }
+  .header {
+    position: relative;
+  }
+  .header .top-bar {
+    position: absolute;
+    z-index:100;
+  }
+}
+
+.navbar-brand {
+  font-size:2rem;
+  font-weight:300;
+  span {
+    font-weight:900;
+  }
+}
+
+.navbar-nav .nav-link{
+  text-transform: uppercase;
+  color:#ffffff!important;
+  font-size:.8rem;
+}
+
+// Dropdown navigation
+.dropdown-menu {
+  background-color:$primary-color;
+
+  .dropdown-item {
+    color:#fff;
+    text-transform:uppercase;
+
+    &:hover {
+      background-color:$secondary-color;
+    }
+  }
+}
+
+// Info Block inside Slider
+
+.carousel-caption {
+  h3 {
+    font-size:2.4rem;
+  }
+}
+
+.info-block {
+  .price {
+    font-size: 1.4rem;
+  }
+
+  .btn-warning {
+    background-color: $secondary-color;
+    color: #ffffff;
+    font-weight: 700;
+    border-color: $secondary-color;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+}
