@@ -5,53 +5,58 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-weight: 300;
 }
 
 .bg-success {
-  background-color:$primary-color!important;
+  background-color: $primary-color !important;
 }
 
 // Make navigation responsive/transparent
 
 @media (min-width: 768px) {
   .top-bar.bg-success {
-    background-color:transparent!important;
+    background-color: transparent !important;
   }
+
   .header {
     position: relative;
   }
+
   .header .top-bar {
     position: absolute;
-    z-index:100;
+    z-index: 100;
   }
 }
 
 .navbar-brand {
-  font-size:2rem;
-  font-weight:300;
+  font-size: 2rem;
+  font-weight: 300;
+
   span {
-    font-weight:900;
+    font-weight: 900;
   }
 }
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
   text-transform: uppercase;
-  color:#ffffff!important;
-  font-size:.8rem;
+  color: #ffffff !important;
+  font-size: .8rem;
 }
 
 // Dropdown navigation
 .dropdown-menu {
-  background-color:$primary-color;
+  background-color: $primary-color;
 
   .dropdown-item {
-    color:#fff;
-    text-transform:uppercase;
+    color: #fff;
+    text-transform: uppercase;
 
     &:hover {
-      background-color:$secondary-color;
+      background-color: $secondary-color;
     }
   }
 }
@@ -60,23 +65,60 @@ h1,h2,h3 {
 
 .carousel-caption {
   h3 {
-    font-size:2.4rem;
+    font-size: 2.4rem;
   }
 }
+
+.btn-warning {
+  background-color: $secondary-color;
+  color: #ffffff;
+  font-weight: 700;
+  border-color: $secondary-color;
+}
+
 
 .info-block {
   .price {
     font-size: 1.4rem;
   }
 
-  .btn-warning {
-    background-color: $secondary-color;
-    color: #ffffff;
-    font-weight: 700;
-    border-color: $secondary-color;
-  }
-
   h4 {
     font-size: 1.2rem;
+  }
+}
+
+.about-us h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+// Properties
+
+.properties {
+  .card {
+    margin-bottom: 2rem;
+  }
+  .card-price {
+    font-size:1.1rem;
+    color:$primary-color;
+  }
+  .card-description img{
+    margin-right: .5rem;
+  }
+}
+
+// Find Your House
+.find-your-house{
+  background-image:url('../img/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .row {
+    height:25rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
   }
 }

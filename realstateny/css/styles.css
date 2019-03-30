@@ -1,7 +1,9 @@
 body {
   font-family: 'Lato', sans-serif; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 300; }
 
 .bg-success {
@@ -38,14 +40,38 @@ h1, h2, h3 {
 .carousel-caption h3 {
   font-size: 2.4rem; }
 
-.info-block .price {
-  font-size: 1.4rem; }
-
-.info-block .btn-warning {
+.btn-warning {
   background-color: #e08709;
   color: #ffffff;
   font-weight: 700;
   border-color: #e08709; }
 
+.info-block .price {
+  font-size: 1.4rem; }
+
 .info-block h4 {
   font-size: 1.2rem; }
+
+.about-us h3 {
+  font-size: 1rem;
+  font-weight: 700; }
+
+.properties .card {
+  margin-bottom: 2rem; }
+
+.properties .card-price {
+  font-size: 1.1rem;
+  color: #71b100; }
+
+.properties .card-description img {
+  margin-right: .5rem; }
+
+.find-your-house {
+  background-image: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .find-your-house .row {
+    height: 25rem; }
+  .find-your-house h3 {
+    font-size: 2.2rem;
+    font-weight: 900; }
