@@ -273,3 +273,10 @@ header {
 .contact-form textarea:focus {
   background: rgba(250, 250, 250, 0.8);
   box-shadow: none; }
+
+.card-header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }

@@ -92,3 +92,30 @@ h3 {
   font-weight: 700; }
   .entry .btn-success:hover {
     background-color: #609602; }
+
+.testimonials {
+  background-color: #71b100; }
+  .testimonials .carousel-item {
+    padding-left: 2rem; }
+  .testimonials .testimonial-text {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300; }
+  .testimonials .testimonial-text::before {
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    font-weight: 900; }
+  .testimonials span {
+    font-size: 1.4rem;
+    font-weight: 900; }
+
+.footer.bg-dark {
+  background-color: #333 !important; }
+
+.footer .nav-link {
+  color: #fff;
+  text-transform: uppercase; }

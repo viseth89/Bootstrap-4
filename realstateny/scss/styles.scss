@@ -144,3 +144,42 @@ h3 {
     }
   }
 }
+
+// Testimonials
+.testimonials {
+  background-color:$primary-color;
+  .carousel-item {
+    padding-left: 2rem;
+  }
+
+  .testimonial-text {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+  }
+
+  .testimonial-text::before{
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left:-2rem;
+    top:1rem;
+    font-weight:900;
+  }
+
+  span {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+}
+
+// Footer
+.footer.bg-dark {
+  background-color:#333!important;
+}
+
+.footer .nav-link{
+  color:#fff;
+  text-transform:uppercase;
+}

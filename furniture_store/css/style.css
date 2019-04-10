@@ -1,6 +1,9 @@
 .bg-primary {
   background-color: #037bc0 !important; }
 
+h2 {
+  font-size: 3rem !important; }
+
 .title {
   font-family: "Playfair Display", serif; }
   .title span {
@@ -35,3 +38,17 @@
 .about-us-image {
   background-image: url("../img/aboutus.jpg");
   min-height: 35rem; }
+
+.product-info .price {
+  font-size: 1.8rem; }
+
+.product-info .btn-success {
+  background-color: #8cbc00 !important;
+  border-color: #8cbc00 !important;
+  text-transform: uppercase !important; }
+
+.footer {
+  border-top: 1px solid #e1e1e1; }
+
+.footer-menu .nav-link {
+  color: #666 !important; }
